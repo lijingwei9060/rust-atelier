@@ -54,7 +54,7 @@ pub struct TestCaseModel {
 // ------------------------------------------------------------------------------------------------
 
 #[cfg(windows)]
-const LINE_ENDING: &str = "\r\n";
+const LINE_ENDING: &str = "\n";
 #[cfg(not(windows))]
 const LINE_ENDING: &str = "\n";
 
